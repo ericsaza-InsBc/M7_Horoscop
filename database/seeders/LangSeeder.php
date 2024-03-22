@@ -18,5 +18,15 @@ class LangSeeder extends Seeder
             'name' => 'English',
             'code' => 'en',
         ]);
+
+        Lang::create([
+            'name' => 'Spanish',
+            'code' => 'es',
+        ]);
+
+        Lang::create([
+            'name' => 'French',
+            'code' => 'fr'
+        ]);
     }
 }
